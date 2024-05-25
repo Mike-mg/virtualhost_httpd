@@ -17,7 +17,7 @@
 source utils/utils_func.sh
 source utils/create_files.sh
 source utils/config_files_system.sh
-source views/view_title.sh
+source views/views.sh
 
 start_program () {
   # Entry program
