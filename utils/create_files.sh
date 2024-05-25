@@ -34,7 +34,7 @@ create_folders_configuration_6 () {
 
     sub_title Create configuration folders of server
 
-    mkdir /etc/httpd/sites-available /etc/httpd/sites-enabled
+    mkdir -p /etc/httpd/sites-available /etc/httpd/sites-enabled
     echo "IncludeOptional sites-enabled/*.conf" >> /etc/httpd/conf/httpd.conf
 }
 
