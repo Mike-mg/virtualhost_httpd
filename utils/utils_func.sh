@@ -8,10 +8,3 @@ check_user_root () {
         exit 1
     fi
 }
-
-update () {
-    # Update system
-
-    sub_title "> Update system"
-    dnf update
-}
